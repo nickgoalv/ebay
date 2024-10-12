@@ -76,6 +76,16 @@ img {
 	margin: 0;
 	list-style-type: disc;
     }
+    #Gen ul.Circle li {
+  		list-style-type: circle;
+	}
+	#Description ul.Circle li.last {
+  		margin-bottom: -12px;
+	}
+	#Description ul.Circle li li {
+  		list-style-type: square;
+	}
+	    
 /*CSS Logo y menú cabecera*/
 #Headr {
 	height: 240px;
@@ -125,15 +135,6 @@ img {
         #Description .Txt {
             padding: 30px 40px 0px 40px;
         }
-	#Description .Txt li {
-  		list-style-type: circle;
-	}
-	#Description .Txt li.last {
-  		margin-bottom: -12px;
-	}
-	#Description .Txt li li {
-  		list-style-type: square;
-	}
         #Description .Foot {
             height: 44px;
             background-image: url('https://i.postimg.cc/d3bkhTY6/DescFoo.jpg');
