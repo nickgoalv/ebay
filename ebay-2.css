@@ -74,6 +74,7 @@ img {
     #Gen ul {
         padding: 0 0 13px 15px;
 	margin: 0;
+	list-style-type: disc;
     }
 /*CSS Logo y menú cabecera*/
 #Headr {
@@ -127,6 +128,9 @@ img {
 	#Description .Txt li {
   		list-style-type: circle;
 	}
+	#Description .Txt li.last {
+  		margin-bottom: -12px;
+	}
 	#Description .Txt li li {
   		list-style-type: square;
 	}
@@ -145,7 +149,7 @@ img {
             margin: auto;
             height: auto;
             position: relative;
-			text-align: center;
+	    text-align: center;
         }
             #Description .Pics a {
                 display: inline-block;
@@ -160,10 +164,10 @@ img {
                 -webkit-box-sizing: border-box;
                 box-sizing: border-box;
             }
-			#Description .Vert a{
-				width: 96px;
-				height: 170px;
-			}
+		#Description .Vert a{
+			width: 96px;
+			height: 170px;
+		}
                 #Description .Pics a img {
                     display: block;
                     width: 93%;
@@ -189,10 +193,10 @@ img {
                     -khtml-user-select: none;
                     user-select: none;
                 }
-				#Description .Vert a img {
-					width: 89%;
-					height: 93%;
-				}
+			#Description .Vert a img {
+				width: 89%;
+				height: 93%;
+			}
             #Description .Pics .ClosePic {
                 display: none;
                 /*border:1px solid #000;*/
@@ -241,7 +245,7 @@ img {
                 z-index: 25;
                 top: 20%;
                 left: 50%;
-				transform: translateX(-50%) translateY(-20%);
+		transform: translateX(-50%) translateY(-20%);
                 -webkit-transform: translate(-50%,-20%);
                 -moz-transform: translate(-50%, 20%);
                 -ms-transform: translate(-50%,-20%);
