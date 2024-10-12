@@ -1,3 +1,4 @@
+/* #Id .Class */
 /*CSS elementos comunes*/
 *#Gen, #Gen > div {
 	width: 800px;
@@ -71,18 +72,18 @@ img {
 		#Gen a:hover {
 			text-decoration: none;
 		}
-    #Gen ul {
-        padding: 0 0 13px 15px;
-	margin: 0;
-	list-style-type: disc;
-    }
-    #Gen ul.Circle li {
+	#Gen ul {
+	        padding: 0 0 13px 15px;
+		margin: 0;
+		list-style-type: disc;
+    	}
+    	#Gen ul.Circle li {
   		list-style-type: circle;
 	}
-	#Description ul.Circle li.last {
+	#Gen ul.Circle li.Last {
   		margin-bottom: -12px;
 	}
-	#Description ul.Circle li li {
+	#Gen ul.Circle li li {
   		list-style-type: square;
 	}
 	    
