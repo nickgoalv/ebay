@@ -45,15 +45,6 @@ img {
 		color: #00b219;
 		text-align: center;
 	}
-	#Gen h3l {
-		padding: 5px 0px 10px 0px;
-		margin: 0px;
-		font-size: 16px;
-		font-weight: bold;
-		letter-spacing: -1px;
-		color: #00b219;
-		text-align: left;
-	} 
 	#Gen h4 {
 		padding: 5px 0px 10px 0px;
 		margin: 0px;
@@ -73,8 +64,7 @@ img {
 		}
     #Gen ul {
         padding: 0 0 13px 15px;
-	    margin: 0;
-		list-style-type: disc;
+	margin: 0;
     }
 /*CSS Logo y menú cabecera*/
 #Headr {
@@ -125,6 +115,12 @@ img {
         #Description .Txt {
             padding: 30px 40px 0px 40px;
         }
+	#Description .Txt li {
+  		list-style-type: circle;
+	}
+	#Description li li {
+  		list-style-type: square;
+	}
         #Description .Foot {
             height: 44px;
             background-image: url('https://i.postimg.cc/d3bkhTY6/DescFoo.jpg');
