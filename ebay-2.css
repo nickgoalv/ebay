@@ -1,0 +1,308 @@
+/*CSS elementos comunes*/
+*#Gen, #Gen > div {
+	width: 800px;
+}
+img {
+	max-width: 100%;
+}
+#Gen {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+	#Gen p {
+		margin: 0px;
+		padding: 0px 0px 13px 0px;
+		line-height: 17px;
+		text-align: justify;
+	}
+        #Gen p.nopad {
+            padding: 0;
+        }
+	#Gen h1 {
+		padding: 5px 0px 15px 0px;
+		margin: 0px;
+		font-size: 26px;
+		font-weight: bold;
+		letter-spacing: -1px;
+		color: #0033CC;
+	}
+	#Gen h2 {
+		padding: 5px 0px 10px 0px;
+		margin: 0px;
+		font-size: 20px;
+		font-weight: bold;
+		letter-spacing: -1px;
+		color: #0033CC;
+	} 
+	#Gen h3 {
+		padding: 5px 0px 10px 0px;
+		margin: 0px;
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: -1px;
+		color: #00b219;
+		text-align: center;
+	} 	
+	#Gen h4 {
+		padding: 5px 0px 10px 0px;
+		margin: 0px;
+		font-size: 14px;
+		font-weight: bold;
+		letter-spacing: -1px;
+		color: #00b219;
+		text-align: center;
+	} 
+	#Gen a {
+		font-weight: bold;
+		text-decoration: underline;
+		color: #990000;
+	}
+		#Gen a:hover {
+			text-decoration: none;
+		}
+    #Gen ul {
+        padding: 0 0 13px 15px;
+	    margin: 0;
+		list-style-type: disc;
+    }
+/*CSS Logo y menú cabecera*/
+#Headr {
+	height: 240px;
+	background-image: url('https://i.postimg.cc/mhWkLfY6/Header.jpg');
+	background-repeat: no-repeat;
+}
+	#Headr .Menue {
+		margin: 0px;
+		padding-top: 178px;
+	}
+		#Headr .Menue ul.Navi {
+			padding: 0px;
+			margin: 0px 0px 0px 0px;
+			width: 800px;
+			text-align: center;
+			position: relative;
+		}
+			#Headr .Menue ul.Navi li {
+				height: 22px;
+				padding: 0 10px 0 10px;
+				margin: 0px;
+				display: inline;
+			}
+				#Headr .Menue ul.Navi li a {
+					padding: 0px 8px 0px 8px;
+					font: 18px arial, Helvetica, sans-serif;
+					color: #FFFFFF;
+					text-decoration: none;
+					text-indent: 0px;
+					font-weight: bold;
+					margin: 0;
+					width: inherit;
+					letter-spacing: -1px;
+					line-height: 30px;
+				}
+				#Headr .Menue ul.Navi li a:hover {
+					color: #DEE4ED;
+				}
+/*CSS Zona descripción general*/
+#Description {
+    background-image: url('https://i.postimg.cc/NF92GkWL/DescBg.jpg');
+}
+        #Description .Header {
+            background-image: url('https://i.postimg.cc/x1SNYHgT/DescHea.jpg');
+            background-repeat: no-repeat;
+        }
+        #Description .Txt {
+            padding: 30px 40px 0px 40px;
+        }
+        #Description .Foot {
+            height: 44px;
+            background-image: url('https://i.postimg.cc/d3bkhTY6/DescFoo.jpg');
+            background-repeat: no-repeat;
+        }
+/*CSS Galeria fotos*/
+        :focus{
+            outline:none;
+        }
+
+        #Description .Pics {
+            display: table;
+            margin: auto;
+            height: auto;
+            position: relative;
+			text-align: center;
+        }
+            #Description .Pics a {
+                display: inline-block;
+                width: 170px;
+                height: 96px;
+                position: relative;
+                border: 1px solid #ccc;
+                background-color: #fff;
+                -moz-border-radius: 8px;
+                border-radius: 8px;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+			#Description .Vert a{
+				width: 96px;
+				height: 170px;
+			}
+                #Description .Pics a img {
+                    display: block;
+                    width: 93%;
+                    height: 90%;
+                    /*-webkit-transition-property: width, height, top, bottom, left, right, z-index;
+                    -webkit-transition-duration: 0.1s;
+                    -moz-transition-property: width, height, top, bottom, left, right, z-index;
+                    -moz-transition-duration: 0.1s;
+                    -o-transition-property: width, height, top, bottom, left, right, z-index;
+                    -o-transition-duration: 0.1s;
+                    transition-property: width, height, top, bottom, left, right, z-index;
+                    transition-duration: 0.1s;*/
+                    position: absolute;
+                    z-index: 1;
+                    top: 50%;
+                    left: 50%;
+                    transform: translateX(-50%) translateY(-50%);
+                    -webkit-transform: translateX(-50%) translateY(-50%);
+                    -moz-transform: translateX(-50%) translateY(-50%);
+                    -ms-transform: translateX(-50%) translateY(-50%);
+                    cursor: pointer;
+                    -moz-user-select: none;
+                    -khtml-user-select: none;
+                    user-select: none;
+                }
+				#Description .Vert a img {
+					width: 89%;
+					height: 93%;
+				}
+            #Description .Pics .ClosePic {
+                display: none;
+                /*border:1px solid #000;*/
+                position: fixed;
+                top: 20.3%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-20.3%);
+                -webkit-transform: translateX(-50%) translateY(-20.3%);
+                -moz-transform: translateX(-50%) translateY(-20.3%);
+                -ms-transform: translateX(-50%) translateY(-20.3%);
+                width: 802px;
+                height: 451px;
+                background: transparent;
+                z-index: 30;
+                cursor: pointer;
+            }
+			#Description .Vert .ClosePic {
+				width: 339px;
+				height: 602px;
+			}
+            #Description .Pics a:focus ~ .ClosePic {
+                display: block;
+            }
+            #Description .Pics a:focus img {
+                width: auto;
+                height: auto;
+                position: fixed;
+                border: 1px solid #ccc;
+                background-color: #fff;
+                border-radius: 10px;
+                -moz-border-radius: 10px;
+                -webkit-border-radius: 10px;
+                padding: 8px;
+                /*box-shadow:0 0 15px 2px #000;
+                -moz-box-shadow:0 0 15px 2px #000;
+                -webkit-box-shadow:0 0 15px 2px #000;*/
+                -webkit-transition-property: width, height, z-index;
+                -webkit-transition-duration: 1s;
+                -moz-transition-property: width, height, z-index;
+                -moz-transition-duration: 1s;
+                -o-transition-property: width, height, z-index;
+                -o-transition-duration: 1s;
+                transition-property: width, height, z-index;
+                transition-duration: 1s;
+                cursor: default;
+                z-index: 25;
+                top: 20%;
+                left: 50%;
+				transform: translateX(-50%) translateY(-20%);
+                -webkit-transform: translate(-50%,-20%);
+                -moz-transform: translate(-50%, 20%);
+                -ms-transform: translate(-50%,-20%);
+            }
+
+/*CSS Zona detalles*/
+#Details {
+	background-image: url('https://i.postimg.cc/YCfGS9yN/DetBg.jpg');
+}
+	#Details .Header {
+		height: 67px;
+		background-image: url('https://i.postimg.cc/SKSXYhwB/DetHea.jpg');
+		display: -webkit-flex; /* Safari */
+		-webkit-flex-i; /* Safari 6.1+ */
+		-webkit-align-items: center; /* Safari 7.0+ */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 28px;
+		letter-spacing: 3px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-shadow: 1px 1px 1px #000;
+	}
+	#Details .Txt {
+		padding: 0px 80px;
+		margin: -7px -15px -37px -15px;
+	}
+		#Details .Txt table {
+			margin: -8px -40px;
+		}
+		#Details .Txt td {
+			padding: 0 10px;
+			font-size: 14px;
+			width: 51%;
+		}
+		#Details .Txt p {
+			padding: 7px 0 0 0;
+			line-height: 14px;
+			text-align: justify;	
+		}
+			#Details .Txt p:last-child {
+				margin: 0;
+			}
+			#Details .Txt p.alert {
+			    background-repeat: no-repeat;
+				background-position: 0 9px;
+				padding: 9px 0 0 26px;
+			}
+			#Details .Txt p.war {
+				background-image: url("https://i.postimg.cc/8CZ7hYGj/warning.png");
+			}
+			#Details .Txt p.inf {
+			    background-image: url("https://i.postimg.cc/B6tXNCZN/infor.png");
+			}
+            #Details .Txt p.ast {
+                background-image: url("https://i.postimg.cc/sfqZ6bhW/aster.png");
+            }
+						
+			#Details .Txt p.spaced {
+				margin: 3px 0 0 25px;
+				padding: 3px 0 0 0;
+			}
+			
+		#Details .Txt ul {
+			padding: 5px 0 0 15px;
+			margin: 0;
+			list-style-type: disc;
+		}
+		#Details .Txt li {
+			line-height: 13px;
+		}    
+	#Details .Foot {
+		height: 53px;
+		background-image: url('https://i.postimg.cc/bNnSKLxB/DetFoo.jpg');
+		background-repeat: no-repeat;
+		background-position: bottom;
+	}
