@@ -69,11 +69,11 @@ img {
 	} 
 	#Gen a {
 		font-weight: bold;
-		text-decoration: underline;
+		text-decoration: none;
 		color: #990000;
 	}
 		#Gen a:hover {
-			text-decoration: none;
+			text-decoration: underline;
 		}
 	#Gen ul {
 	        padding: 0 0 13px 15px;
