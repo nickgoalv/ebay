@@ -45,9 +45,7 @@ img {
 		letter-spacing: -1px;
 		color: #00b219;
 		text-align: center;
-	}
-	#Gen h3.a{
-		color: #00b219;
+			a {color: #00b219;}
 	}
 	#Gen h3l {
 		padding: 0px 0px 10px 0px;
@@ -66,7 +64,8 @@ img {
 		letter-spacing: -1px;
 		color: #00b219;
 		text-align: center;
-	} 
+			a {color: #00b219;}
+	}
 	#Gen a {
 		font-weight: bold;
 		text-decoration: none;
