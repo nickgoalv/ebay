@@ -21,6 +21,14 @@ img {
         #Gen p.nopad {
             padding: 0;
         }
+	#Gen a {
+		font-weight: bold;
+		text-decoration: none;
+		color: #990000;
+	}
+		#Gen a:hover {
+			text-decoration: underline;
+		}
 	#Gen h1 {
 		padding: 5px 0px 15px 0px;
 		margin: 0px;
@@ -66,14 +74,6 @@ img {
 		text-align: center;
 			a {color: #00b219;}
 	}
-	#Gen a {
-		font-weight: bold;
-		text-decoration: none;
-		color: #990000;
-	}
-		#Gen a:hover {
-			text-decoration: underline;
-		}
 	#Gen ul {
 	        padding: 0 0 13px 15px;
 		margin: 0;
