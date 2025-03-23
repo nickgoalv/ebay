@@ -46,6 +46,9 @@ img {
 		color: #00b219;
 		text-align: center;
 	}
+	#Gen h3.a{
+		color: #00b219;
+	}
 	#Gen h3l {
 		padding: 0px 0px 10px 0px;
 		margin: 0px;
@@ -305,9 +308,8 @@ img {
 			}
             #Details .Txt p.ast {
                 background-image: url("https://i.postimg.cc/sfqZ6bhW/aster.png");
-            }
-						
-			#Details .Txt p.spaced {
+            }				
+		#Details .Txt p.spaced {
 				margin: 3px 0 0 25px;
 				padding: 3px 0 0 0;
 			}
